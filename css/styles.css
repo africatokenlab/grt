@@ -1,0 +1,112 @@
+body {  
+	background-color: #8FBC8F; /* #98FB98 #f7f0f0 */  
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.pet-stats {
+	display: none;
+}
+
+div.after-death {
+	display: none;
+}
+
+div#zoo {
+	display: none;
+}
+
+.jumbotron {
+	background-color: #8FBC8F; /* #98FB98 #f7f0f0 */  
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+	width: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Courier New";
+	color: #08541a;
+	font-weight: bold;
+}
+
+.jumbotron h1 {
+	color: #08541a;
+}
+
+#zoo p {
+	font-style: italic;
+}
+
+button.btn {
+	background-color: #a3c8e6;
+	font-weight: bold;
+	border-color: #08541a;
+}
+
+.btn-default {
+	color: #08541a;
+	border-color: #08541a;
+	font-weight: bold;
+}
+
+button {
+	color: #08541a;
+}
+
+button.btn:hover {
+	background-color: #ffc1d9;
+}
+
+
+
+
+#card {
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px; /*600px*/
+  max-height: 940px; /*600px*/
+  border-radius: 6px;
+  /*box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);*/
+  overflow: hidden;
+}
+
+model-viewer {
+  width: 100%;
+  height: 500px;
+  background-color: transparent; /*#70BCD1*/
+  --poster-color: #ffffff00;
+}
+
+
+
+/*----- Footer Section -----*/
+footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../images/footer-petrn.png) no-repeat bottom; padding-bottom: 50px;}
+.footer-logo img{transition: all 400ms ease;}
+.footer-logo img:hover {opacity: 0.5;}
+.footer {border-bottom: 1px solid; padding-bottom: 50px;}
+.footer-icon ul li{display: inline-block; padding: 0px 5px;}
+.footer-icon ul li:first-child{padding-left: 0;}
+.footer-icon ul li a{display: list-item; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 100%; font-size: 16px;}
+.footer-link ul{display: inline-block; width: 100%;}
+.footer-link ul li{width: 33.33%; float: left; padding-bottom: 10px;}
+.subscribe{position: relative;}
+.subscribe label{font-size: 18px; padding-bottom: 15px;}
+.subscribe .form-control{border: 0; border-radius: 5px; padding-left: 25px; padding-right: 125px;}
+.subscribe .submit{font-size: 16px; font-weight: 700; position: absolute; bottom: 0; right: 0; height: 50px; border: 0; width: 115px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;} 
+.copyright{padding-top: 50px;}
+.copyright p a{text-decoration: underline;}
+.copyright ul{text-align: right;}
+.copyright ul li{display: inline-block; padding: 0px 25px; position: relative;}
+.copyright ul li:first-child{padding-left: 0;}
+.copyright ul li:last-child{padding-right: 0;}
+.copyright ul li:before{content: ""; position: absolute; top: 7px; right: 0; width: 2px; height: 12px;}
+.copyright ul li:last-child:before{width: 0;}
+/*----- Footer Section End -----*/
